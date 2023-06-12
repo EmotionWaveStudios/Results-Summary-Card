@@ -3,14 +3,14 @@ const App = () => {
     <div className="font-sans">
       <div
         id="container"
-        className="h-4/5 w-3/5 flex my-auto mx-auto rounded-3xl border-2 border-black"
+        className="mt-48 max-w-lg flex mx-auto rounded-3xl border-2 shadow-lg shadow-blue-100/4"
       >
         <div
           id="purple_card"
           className=" w-1/2 rounded-2xl bg-gradient-to-b from-[#6743FF] to-[#312CEA] text-center text-white"
         >
           <h3 className="p-4 text-sm text-gray-200">Your Result</h3>
-          <div className="w-24 h-24 bg-gradient-to-b from-[#4C22CA] to-transparent rounded-full mx-auto my-2">
+          <div className="w-24 bg-gradient-to-b from-[#4C22CA] to-transparent rounded-full mx-auto my-2">
             <h1 className="pt-6 text-4xl">76</h1>
             <h4 className="text-gray-400 text-xs">of 100</h4>
           </div>
