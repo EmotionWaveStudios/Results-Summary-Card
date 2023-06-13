@@ -3,11 +3,11 @@ const App = () => {
     <div className="font-sans">
       <div
         id="container"
-        className="mt-48 max-w-lg flex mx-auto rounded-3xl border-2 shadow-lg shadow-blue-100/4"
+        className=" mt-48 max-w-lg flex mx-auto rounded-3xl border-2 max-sm:flex-col shadow-lg shadow-blue-100/4 max-sm:max-w-sm max-sm:mt-16"
       >
         <div
           id="purple_card"
-          className=" w-1/2 rounded-2xl bg-gradient-to-b from-[#6743FF] to-[#312CEA] text-center text-white"
+          className=" w-1/2 rounded-2xl bg-gradient-to-b from-[#6743FF] to-[#312CEA] text-center text-white max-sm:w-full"
         >
           <h3 className="p-4 text-sm text-gray-200">Your Result</h3>
           <div className="w-24 bg-gradient-to-b from-[#4C22CA] to-transparent rounded-full mx-auto my-2">
@@ -20,8 +20,8 @@ const App = () => {
           </p>
         </div>
 
-        <div className=" w-1/2">
-          <div id="white-card_container" className="w-3/4 mx-auto">
+        <div className=" w-1/2 max-sm:w-full">
+          <div id="white-card_container" className="w-3/4 mx-auto ">
             <div></div>
             <h3 className="font-semibold py-4">Summary</h3>
             <div className="flex justify-between bg-red-100 rounded-md p-2 mb-2">
